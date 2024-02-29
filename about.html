@@ -1,0 +1,66 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+    
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">About Us</h1>
+                    <nav aria-label="breadcrumb animated slideInDown">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="{% static 'img/n.jpeg' %}" alt="About Us Image">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+   
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{% static 'img/ld.jpeg' %}" alt="About Us Image">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6">Our Story</h1>
+                        <p class="text-primary fs-5 mb-4">Discover the Journey Behind Sabadress Ethiopia</p>
+                        <p>At Sabadress Ethiopia, our journey began with a passion for fashion and a vision to create a platform where people could explore unique Ethiopian fashion pieces while supporting local artisans and communities. From our inception to where we stand today, our commitment to showcasing the beauty and diversity of Ethiopian fashion remains steadfast.</p>
+                        <p>With each collection we curate, we aim to celebrate the rich cultural heritage of Ethiopia, weaving together traditional craftsmanship with contemporary designs. We source our materials from sustainable and ethical producers, ensuring that every piece tells a story of craftsmanship, creativity, and cultural pride.</p>
+                        <p>Our dedication extends beyond fashion; it's about creating opportunities for growth and empowerment within our community. By collaborating with local artisans and designers, we aim to foster economic development and preserve Ethiopia's rich textile traditions for future generations.</p>
+                        <p>Join us on our journey as we continue to showcase the vibrancy and creativity of Ethiopian fashion, one exquisite piece at a time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="{% static 'img/kemi.jpeg' %}" alt="Our Team Image">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6">Our Team</h1>
+                        <p class="text-primary fs-5 mb-4">Meet the Team Behind Sabadress Ethiopia</p>
+                        <p>Our team at Sabadress Ethiopia is a dynamic blend of creative individuals who share a common vision: to redefine Ethiopian fashion and empower local communities. From our talented designers to our dedicated artisans, each member of our team brings a unique perspective and skill set to our collective mission.</p>
+                        <p>We are committed to showcasing the diversity and beauty of Ethiopian fashion while promoting ethical and sustainable practices within the industry. Through our collaborative efforts, we aim to create opportunities for growth and innovation, fostering a vibrant fashion ecosystem that celebrates authenticity and creativity.</p>
+                        <p>At Sabadress Ethiopia, we believe that fashion is more than just clothing—it's a reflection of culture, identity, and expression. We are proud to be part of a movement that celebrates the richness and diversity of Ethiopian fashion, and we invite you to join us on this journey of discovery and celebration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

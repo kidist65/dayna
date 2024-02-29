@@ -1,0 +1,37 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<body>
+   
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Welcome to Saba Ethiopia Dress Shop Center</h1>
+                    <p class="animated slideInDown">Discover the latest trends in Ethiopian fashion at Saba Ethiopia Dress Shop Center. Explore our exquisite collection of traditional Ethiopian dresses and accessories.</p>
+                    <a href="#" class="btn btn-primary py-3 px-4 animated slideInDown">Shop Now</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="{% static 'img/kemi.jpeg' %}" alt="Ethiopian Dress">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section id="designers">
+            <h2>Featured Designers</h2>
+            <p>Explore creations from renowned Ethiopian fashion designers:</p>
+            <ul>
+                <li>nani</li>
+                <li>kidist amha</li>
+                <li>blen daniel</li>
+              
+            </ul>
+        </section>
+    </div>
+
+{% endblock %}
+</body>
+</html>
